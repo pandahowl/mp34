@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#AAAAAA"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mp4position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/videoquality"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <Button
+            android:id="@+id/Normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/normal" />
+
+        <Button
+            android:id="@+id/Fine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fine" />
+
+        <Button
+            android:id="@+id/Good"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/good" />
+
+    </LinearLayout>
+
+</LinearLayout>

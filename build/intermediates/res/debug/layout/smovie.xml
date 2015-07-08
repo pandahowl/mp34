@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+    
+    <VideoView
+        android:id="@+id/surface_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <LinearLayout
+        android:id="@+id/contr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/surface_view"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <FrameLayout android:id="@+id/operation_volume_brightness"
+        android:visibility="invisible" android:layout_centerInParent="true"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:background="#00000000" android:orientation="horizontal"
+        android:padding="0dip">
+        <ImageView android:id="@+id/operation_bg"
+            android:layout_gravity="center" android:src="@drawable/video_volumn_bg"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="25dp" >
+
+            <ImageView
+                android:id="@+id/operation_full"
+                android:layout_width="wrap_content"
+                android:layout_height="94dip"
+                android:layout_gravity="left"
+                android:src="@drawable/video_num_front" />
+
+            <ImageView android:id="@+id/operation_percent"
+                android:layout_gravity="left" android:src="@drawable/video_num_bg"
+                android:layout_width="wrap_content" android:layout_height="0dip"
+                android:scaleType="matrix" />
+        </FrameLayout>
+        
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="25dp" >
+
+            <ImageView
+                android:id="@+id/ofull"
+                android:layout_width="wrap_content"
+                android:layout_height="94dip"
+                android:layout_gravity="left"
+                android:src="@drawable/video_num_front" />
+
+            <ImageView android:id="@+id/opercent"
+                android:layout_gravity="left" android:src="@drawable/video_num_bg"
+                android:layout_width="wrap_content" android:layout_height="0dip"
+                android:scaleType="matrix" />
+        </FrameLayout>
+    </FrameLayout>
+<RelativeLayout
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:background="#e0444444"
+    android:orientation="vertical" 
+    android:gravity="left">
+
+    <Button
+        android:id="@+id/backw2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/back1" />
+
+    <Button
+        android:id="@+id/listw2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/list3" />
+
+</RelativeLayout>
+
+</RelativeLayout> <!-- From: file:/Users/huangpinhao/Documents/vreader/20150612/mp34/res/layout/smovie.xml -->

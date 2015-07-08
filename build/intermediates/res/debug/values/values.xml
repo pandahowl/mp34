@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/huangpinhao/Documents/vreader/20150612/mp34/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/huangpinhao/Documents/vreader/20150612/mp34/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="MemberCenter">MemberCenter</string>
+    <string name="accountinsufficent">Your account balance is insufficent.</string>
+    <string name="accountlocked">Your account has been locked.</string>
+    <string name="action_settings">Settings</string>
+    <string name="adjustratio">Adjust screen layout ratio</string>
+    <string name="allow3g4g">3G/4G Download</string>
+    <string name="app_name">VTest</string>
+    <string name="beginingorcontinue">Watch from the beginning or continue watching from last stop?</string>
+    <string name="book_author">Loweice</string>
+    <string name="book_title">Adventure</string>
+    <string name="bookmark">bookmark</string>
+    <string name="cancel">Cancel</string>
+    <string name="chara">A</string>
+    <string name="confirm">Confirm</string>
+    <string name="contents">contents</string>
+    <string name="conti">Continue</string>
+    <string name="curleffect">Curl Effect</string>
+    <string name="delete">Delete</string>
+    <string name="delete_epub">Delete</string>
+    <string name="doublepaged">Double Paged For Landscape</string>
+    <string name="error">Error</string>
+    <string name="fbegining">From beginning</string>
+    <string name="fine">fine</string>
+    <string name="forgetpassword">forget password</string>
+    <string name="full">full</string>
+    <string name="globalPagination">Global Pagination</string>
+    <string name="goexit">Are you going to exit V-Life?</string>
+    <string name="good">good</string>
+    <string name="hello">Hello World, EPubTestActivity!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="highlight">highlight</string>
+    <string name="information">Information</string>
+    <string name="layout">Layout</string>
+    <string name="loading">Loading...</string>
+    <string name="lockrotation">Lock Rotation</string>
+    <string name="network">Network</string>
+    <string name="networkstatus">Please confirm your network status</string>
+    <string name="no">NO</string>
+    <string name="noneeffect">None</string>
+    <string name="normal">normal</string>
+    <string name="novideofeeds">No video feeds at this moment.</string>
+    <string name="ok">Ok</string>
+    <string name="open_epub">Open</string>
+    <string name="pagetransitioneffect">Page Transition Effect</string>
+    <string name="reader">SkyReader version 1.0</string>
+    <string name="reloading">Reload</string>
+    <string name="rotation">Rotation</string>
+    <string name="searchfinished">Search Finished</string>
+    <string name="searchfound">found</string>
+    <string name="searchhint">Type Words To Search</string>
+    <string name="searchmore">Search More</string>
+    <string name="see_details">See Details</string>
+    <string name="setting">Setting</string>
+    <string name="signup">sign up</string>
+    <string name="siinotherdevice">This account has been signed in on another device.</string>
+    <string name="skyepub">Powered By SkyEpub for Android</string>
+    <string name="slideeffect">Slide Effect</string>
+    <string name="sortByAuthor">By Author</string>
+    <string name="sortByDownload">No Sort</string>
+    <string name="sortByLastRead">By Last Read</string>
+    <string name="sortByTitle">By Title</string>
+    <string name="sortOption">Sort Books</string>
+    <string name="test">Test</string>
+    <string name="theme">Theme</string>
+    <string name="themeblack">Theme Black</string>
+    <string name="themebrown">Theme Brown</string>
+    <string name="themewhite">Theme White</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="videoquality">Configure video quality</string>
+    <!-- From: file:/Users/huangpinhao/Documents/vreader/20150612/mp34/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+    <style name="behindMenuItemLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#0000CD</item>
+    </style>
+    <style name="behindMenuItemTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#444444</item>
+    </style>
+    <style name="behindMenuScrollContent">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="leftBehindMenuScroll">
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/leftbk</item>
+    </style>
+    <style name="rightBehindMenuScroll">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/rightbg</item>
+    </style>
+</resources>
