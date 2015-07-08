@@ -62,6 +62,7 @@ public class SVideoPlayer extends Activity {
     private ImageView mOperationfull;
     private ImageView mfull;
     //聲音設定
+	//ZZzzzzzzzzzzzz
     private AudioManager mAudioManager;
     /** 最大聲音 */
     private int mMaxVolume;
